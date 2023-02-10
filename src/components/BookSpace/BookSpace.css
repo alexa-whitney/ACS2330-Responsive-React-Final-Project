@@ -1,0 +1,46 @@
+.BookSpace {
+    position: relative;
+    width: 100%;
+    text-align: center;
+  }
+
+.BookSpace .BookSpace-title {
+    text-decoration: none;
+    color: #000;
+}
+
+.BookSpace h1 {
+    display: block;
+      position: absolute;
+      left: 0;
+      top: 0;
+      margin: 0;
+      font-weight: lighter;
+      background-color: rgba(255, 255, 255, 0.75);
+      padding: 1rem;
+      text-align: left;
+}
+
+.BookSpace .BookSpace-info {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	text-align: right;
+}
+
+.BookSpace .BookSpace-info div {
+	display: inline-block;
+	padding: 0.25em 0.5em;
+	background-color: pink;
+}
+  
+.BookSpace > img {
+    width: 100%;
+    height: auto;
+}
+
+.genre {
+    font-style: italic;
+    font-size: larger;
+    color: rgba(174, 8, 108, 0.75);
+}
