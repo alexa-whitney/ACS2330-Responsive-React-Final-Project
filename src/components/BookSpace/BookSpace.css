@@ -30,6 +30,7 @@
 
 .BookSpace .BookSpace-info div {
 	display: inline-block;
+    font-weight: bold;
 	padding: 0.25em 0.5em;
 	background-color: pink;
 }
@@ -41,6 +42,5 @@
 
 .genre {
     font-style: italic;
-    font-size: larger;
     color: rgba(174, 8, 108, 0.75);
 }
