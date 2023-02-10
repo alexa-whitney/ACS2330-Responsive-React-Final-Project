@@ -71,12 +71,10 @@
 		],
 		"website": "https://sarahjmaas.com/books/a-court-of-thorns-and-roses-series/a-court-of-mist-and-fury/",
 		"features": [
-			"fantasy",
 			"magic",
 			"spice",
 			"love story",
-			"trigger warning",
-			"violence"
+			"trigger warning"
 		]
 	},
 	{
@@ -106,7 +104,7 @@
 		"website": "https://en.wikipedia.org/wiki/Where_the_Red_Fern_Grows",
 		"features": [
 			"animals",
-			"children"
+			"kids"
 		]
 	},
 	{
@@ -134,8 +132,8 @@
 		],
 		"website": "https://www.charliemackesy.com/",
 		"features": [
-			"love",
-			"animals"
+			"animals",
+			"kids"
 		]
 	}
 ]
