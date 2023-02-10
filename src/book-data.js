@@ -1,4 +1,4 @@
-import data from './books-data.json'
+import data from './book-data.json'
 
 data.forEach((obj, i) => {
 	obj.id = i

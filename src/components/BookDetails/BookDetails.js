@@ -2,7 +2,7 @@ import React from 'react';
 import { useParams } from 'react-router';
 import data from '../../book-data.js';
 import './BookDetails.css';
-import BookFeatureList from '..BookFeatureList/BookFeatureList';
+import BookFeatureList from '../BookFeatureList/BookFeatureList';
 
 function BookDetails(props) {
   const params = useParams()

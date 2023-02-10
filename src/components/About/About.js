@@ -4,12 +4,7 @@ function About() {
     return (
         <div>
             <h1>About Alexa's Book Recommendations</h1>
-            <p>Hi! I'm Alexa, and I'm a book addict. I currently 
-                have 241 books in my possession, and wanted to create
-                a site where I can share my current Top Ten Books! There
-                is a lot of genre diversity in this list, whether you want
-                to cry, laugh, get in your feels, or leap into a magical world, 
-                I've got something here for you.
+            <p>Welcome to The Beguiling Bookshelf! Here, you'll find recommendations for the top ten must-read books in the genres of fantasy, horror, and romance. As an avid reader and lover of these genres, I have a passion for discovering and sharing the best books on the market. Whether you're in the mood for an epic fantasy adventure, a hair-raising horror story, or a heartwarming romance, I have something for you. So, come on in, peruse my top picks, and find your next great read. Happy reading!
             </p>
         </div>
     )

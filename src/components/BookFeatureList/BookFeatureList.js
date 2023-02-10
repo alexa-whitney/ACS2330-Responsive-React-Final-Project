@@ -1,6 +1,6 @@
 import React from 'react'
 import BookFeature from '../BookFeature/BookFeature'
-import './BooksFeatureList.css'
+import './BookFeatureList.css'
 
 function BookFeatureList(props) {
 	const icons = props.features.map((feature) => {

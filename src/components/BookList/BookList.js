@@ -4,7 +4,7 @@ import BookSpace from '../BookSpace/BookSpace';
 import './BookList.css';
 import data from '../../book-data.js';
 
-function BooksList() {
+function BookList() {
 	const [query, setQuery] = useState('')
 	const spaces = data.filter((obj) => {
 		const inTitle = obj.title.toLowerCase().includes(query.toLowerCase())
@@ -44,4 +44,4 @@ function BooksList() {
 	)
 }
 
-export default BooksList;
+export default BookList;
