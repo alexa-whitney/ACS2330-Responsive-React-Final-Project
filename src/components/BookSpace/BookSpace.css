@@ -1,12 +1,13 @@
 .BookSpace {
     position: relative;
     width: 100%;
-    text-align: center;
+    /* text-align: center; */
+    background-image: url('https://t3.ftcdn.net/jpg/01/27/02/92/240_F_127029231_vh7GCbshFW7dgxTVImx2NBXmolZJLMK7.jpg');
   }
 
 .BookSpace .BookSpace-title {
     text-decoration: none;
-    color: #000;
+    color: darkolivegreen;
 }
 
 .BookSpace h1 {
