@@ -19,4 +19,4 @@ You may also see any lint errors in the console.
 
 For any questions, please contact Alexa Whitney at [alexa.whitney@students.dominican.edu](http://localhost:3000).
 
-![](public/READMEtest.jpeg)
+![](public/beguile.jpeg)
