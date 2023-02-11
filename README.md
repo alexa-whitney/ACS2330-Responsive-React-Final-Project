@@ -1,4 +1,4 @@
-# The Beguiling Bookshelf
+![](public/beguile.jpeg)
 A book recommendation website built with React.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -19,4 +19,3 @@ You may also see any lint errors in the console.
 
 For any questions, please contact Alexa Whitney at [alexa.whitney@students.dominican.edu](http://localhost:3000).
 
-![](public/beguile.jpeg)
