@@ -33,13 +33,15 @@
     border-bottom: 2px solid;
   } */
 
+  @import url(//fonts.googleapis.com/css?family=Vibur);
+
   .Title {
     display: flex;
     flex-direction: column;
     align-items: center;
     background-image: url('https://c4.wallpaperflare.com/wallpaper/448/38/538/book-book-stack-bookcase-books-wallpaper-preview.jpg');
     background-size: cover;
-    height: 30vh;
+    height: 80vh;
     text-align: center;
     padding: 60px;
     border: 14px solid white;
@@ -59,12 +61,57 @@
     border-radius: 20px;
   }
   
-  h1 {
+  /* h1 {
     font-size: 6em;
     font-family: luminari;
     color: white;
     margin: 0;
+  } */
+
+.logo b{
+  font: 400 19vh "luminati";
+  color: #fee;
+  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #44ff60, 0 0 0.5em #0ade2a, 0 0 0.1em #21961f, 0 10px 3px #000;
+}
+.logo b span{
+  animation: blink linear infinite 2s;
+}
+.logo b span:nth-of-type(2){
+  animation: blink linear infinite 3s;
+}
+@keyframes blink {
+  78% {
+    color: inherit;
+    text-shadow: inherit;
   }
+  79%{
+     color: #333;
+  }
+  80% {
+    
+    text-shadow: none;
+  }
+  81% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  82% {
+    color: #333;
+    text-shadow: none;
+  }
+  83% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  92% {
+    color: #333;
+    text-shadow: none;
+  }
+  92.5% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+}
   
   .Title-Subtitle {
     font-size: 1.5em;

@@ -7,7 +7,11 @@ function Title() {
   return (
     <div className="Title">
       <header>
-        <h1>The Beguilling Bookshelf</h1>
+        <h1>
+          <div class="logo">
+            <b>th<span>e</span> be<span>g</span>uiling booksh<span>e</span>lf</b>
+          </div>
+        </h1>
         <div className="Title-Subtitle">Be entertained.</div>
         <div>
         <NavLink 
