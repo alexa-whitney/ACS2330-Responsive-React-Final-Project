@@ -9,7 +9,7 @@ function Title() {
       <header>
         <h1>
           <div class="logo">
-            <b>th<span>e</span> be<span>g</span>uiling booksh<span>e</span>lf</b>
+            <b>the be<span>g</span>uil<span>i</span>ng bookshelf</b>
           </div>
         </h1>
         <div className="Title-Subtitle">Be entertained.</div>

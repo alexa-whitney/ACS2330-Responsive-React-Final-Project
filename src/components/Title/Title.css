@@ -33,7 +33,7 @@
     border-bottom: 2px solid;
   } */
 
-  @import url(//fonts.googleapis.com/css?family=Vibur);
+  @import url(//fonts.googleapis.com/css?family=Pacifico);
 
   .Title {
     display: flex;
@@ -41,7 +41,7 @@
     align-items: center;
     background-image: url('https://c4.wallpaperflare.com/wallpaper/448/38/538/book-book-stack-bookcase-books-wallpaper-preview.jpg');
     background-size: cover;
-    height: 80vh;
+    height: 100vh;
     text-align: center;
     padding: 60px;
     border: 14px solid white;
@@ -69,7 +69,7 @@
   } */
 
 .logo b{
-  font: 400 19vh "luminati";
+  font: 400 19vh "Pacifico";
   color: #fee;
   text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #44ff60, 0 0 0.5em #0ade2a, 0 0 0.1em #21961f, 0 10px 3px #000;
 }
