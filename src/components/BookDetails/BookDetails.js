@@ -16,11 +16,11 @@ function BookDetails(props) {
       </div>
       <div className="BookDetails-info">
         <h1 className="BookDetails-title">{ title }</h1>
+        <BookFeatureList features={features}/>
         <p className="BookDetails-desc">{ desc }</p>
         <p className="BookDetails-genre">{ genre }</p>
         <p className="BookDetails-published">{ published }</p>
         <p className="BookDetails-website">{ website }</p>
-        <BookFeatureList features={features}/>
       </div>
     </div>
   )

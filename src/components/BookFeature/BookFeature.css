@@ -1,7 +1,7 @@
 .BookFeature {
-	font-size: 2em;
+	font-size: 1.5em;
 	padding: 0.25em;
 	margin: 0.125em;
 	border-radius: 0.25em;
-	background-color: #eee;
+	background-color: rgba(112, 246, 105, 0.4);
 }
