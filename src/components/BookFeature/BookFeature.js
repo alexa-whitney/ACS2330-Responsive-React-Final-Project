@@ -9,6 +9,8 @@ function getFeature(str) {
 			return '🌶'
 		case 'trigger warning':
 			return '⚠️'
+		case 'gore':
+			return '🔪'
 		case 'love story':
 			return '💕'
 		case 'kids':
