@@ -34,12 +34,11 @@ function BookList() {
 			<form>
 				<input
 					value={query}
-					placeholder="search"
+					placeholder="    Search by Title or Author here..."
 					onChange={(e) => setQuery(e.target.value)}
 				/>
-				<button type="submit">Submit</button>
 			</form>
-			{spaces}
+			{spaces.length > 0 ? spaces : "No results match your search"}
 		</div>
 	)
 }

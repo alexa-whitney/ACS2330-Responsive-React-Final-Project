@@ -1,8 +1,8 @@
 .BookSpace {
     position: relative;
     width: 100%;
-    /* text-align: center; */
-    background-image: url('https://t3.ftcdn.net/jpg/01/27/02/92/240_F_127029231_vh7GCbshFW7dgxTVImx2NBXmolZJLMK7.jpg');
+    /* text-align: center;
+    background-image: url('https://t3.ftcdn.net/jpg/01/27/02/92/240_F_127029231_vh7GCbshFW7dgxTVImx2NBXmolZJLMK7.jpg'); */
   }
 
 .BookSpace .BookSpace-title {
@@ -33,7 +33,7 @@
 	display: inline-block;
     font-weight: bold;
 	padding: 0.25em 0.5em;
-	background-color: pink;
+	background-color: rgba(255, 255, 255, 0.75);
 }
   
 .BookSpace > img {
@@ -43,5 +43,5 @@
 
 .genre {
     font-style: italic;
-    color: rgba(174, 8, 108, 0.75);
+    color: #025e10;
 }
