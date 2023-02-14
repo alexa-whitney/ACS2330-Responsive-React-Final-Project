@@ -9,7 +9,8 @@ function BookList() {
 	const spaces = data.filter((obj) => {
 		const inTitle = obj.title.toLowerCase().includes(query.toLowerCase())
 		const inAuthor = obj.author.toLowerCase().includes(query.toLowerCase())
-		return inTitle || inAuthor
+		const inGenre = obj.genre.toLowerCase().includes(query.toLowerCase())
+		return inTitle || inAuthor || inGenre
 	}).map((obj) => {
 		const { id, title, author, desc, genre, published, images, website } = obj
 		return (
@@ -34,7 +35,7 @@ function BookList() {
 			<form>
 				<input
 					value={query}
-					placeholder="    Search by Title or Author here..."
+					placeholder="    Search by Title, Author, or Genre"
 					onChange={(e) => setQuery(e.target.value)}
 				/>
 			</form>
