@@ -12,12 +12,6 @@
   border: 14px solid white;
 }
 
-header {
-  width: 100%;
-  padding: 20px;
-  border-radius: 20px;
-}
-
 .logo b {
   font: 400 13vh "Pacifico";
   color: #fefefe;
@@ -83,22 +77,25 @@ header {
   font-size: 1.2em;
   font-family: "Raleway", sans-serif;
   color: #fff;
-  text-decoration: none;
   margin-right: 20px;
   border-radius: 20px;
-  border: 3px solid lime;
+  border: 3px solid white;
   transition: all 0.2s ease-in-out;
-}
-
-.nav-link:hover,
-.nav-link-active {
-  background-color: #333;
-  color: #fff;
+  background-color: rgba(112, 246, 105, 0.4);
   cursor: pointer;
 }
 
-.RandomBook {
-  background-color: #333;
+.nav-link-hover,
+.nav-link-active {
+  padding: 10px 20px;
+  font-size: 1.2em;
+  font-family: "Raleway", sans-serif;
   color: #fff;
+  text-decoration: none;
+  margin-right: 20px;
+  border-radius: 20px;
+  border: 3px solid white;
+  transition: all 0.2s ease-in-out;
+  background-color: rgba(112, 246, 105, 0.4);
   cursor: pointer;
 }
