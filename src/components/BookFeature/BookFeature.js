@@ -7,6 +7,8 @@ function getFeature(str) {
 			return '😱'
 		case 'spice':
 			return '🌶'
+		case 'funny':
+			return '🤣'
 		case 'trigger warning':
 			return '⚠️'
 		case 'gore':
