@@ -19,7 +19,7 @@ function BookDetails(props) {
         <BookFeatureList features={features}/>
         <p className="BookDetails-desc">{ desc }</p>
         <p className="BookDetails-genre">{ genre }</p>
-        <p className="BookDetails-published">{ published }</p>
+        <p className="BookDetails-published">Date Published: { published }</p>
         <p className="BookDetails-website">{ website }</p>
       </div>
     </div>

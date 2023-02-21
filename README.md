@@ -43,7 +43,7 @@ Contributions are always welcome! If you have any suggestions or feature request
 
 
 
-## Usage
+## To Run
 
 In the project directory, you can run:
 
@@ -58,4 +58,7 @@ You may also see any lint errors in the console.
 ## Contact
 
 For any questions, please contact Alexa Whitney at [alexa.whitney@students.dominican.edu](http://localhost:3000).
+
+
+### The images used in this project were sourced from Google.
 
