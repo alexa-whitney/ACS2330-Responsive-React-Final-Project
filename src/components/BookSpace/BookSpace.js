@@ -19,7 +19,7 @@ function BookSpace(props) {
 				<img src={`${process.env.PUBLIC_URL}/images/${image}`} width="300" height="400" alt="Hello" />
 			</Link>
 			<div className="BookSpace-info">
-				<div>{author}</div>
+				<div className="author">{author}</div>
 				<div className="genre">{genre}</div>
 			</div>
 		</div>

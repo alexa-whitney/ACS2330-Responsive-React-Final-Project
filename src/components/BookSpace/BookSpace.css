@@ -1,48 +1,55 @@
 .BookSpace {
-    position: relative;
-    width: 100%;
-    /* text-align: center;
-    background-image: url('https://t3.ftcdn.net/jpg/01/27/02/92/240_F_127029231_vh7GCbshFW7dgxTVImx2NBXmolZJLMK7.jpg'); */
-  }
+  position: relative;
+  width: 300px;
+  border-radius: 20px;
+  box-shadow: 0 40px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  overflow: hidden;
+}
 
 .BookSpace .BookSpace-title {
-    text-decoration: none;
-    color: darkolivegreen;
-    font-weight: 200;
+  text-decoration: none;
+  color: darkolivegreen;
+  font-weight: 200;
 }
 
 .BookSpace h1 {
-    display: block;
-      position: absolute;
-      left: 0;
-      top: 0;
-      margin: 0;
-      font-weight: lighter;
-      background-color: rgba(255, 255, 255, 0.75);
-      padding: 1rem;
-      text-align: left;
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 0;
+  font-weight: lighter;
+  background-color: rgba(255, 255, 255, 0.75);
+  padding: 1rem;
+  text-align: left;
 }
 
+/* Author and genre */
 .BookSpace .BookSpace-info {
-	position: absolute;
-	right: 0;
-	bottom: 0;
-	text-align: right;
+  position: relative;
+  right: 0;
+  bottom: 0;
+  text-align: center;
 }
 
 .BookSpace .BookSpace-info div {
-	display: inline-block;
-    font-weight: bold;
-	padding: 0.25em 0.5em;
-	background-color: rgba(255, 255, 255, 0.75);
+  font-weight: bold;
+  padding: 0.2em 0.45em;
+  background-color: rgba(255, 255, 255, 0.65);
 }
-  
+
 .BookSpace > img {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
+}
+
+.author {
+  display: none;
 }
 
 .genre {
-    font-style: italic;
-    color: #025e10;
+  font-style: italic;
+  color: #025e10;
+  border-radius: 20px;
+  font-size: 12px;
 }
