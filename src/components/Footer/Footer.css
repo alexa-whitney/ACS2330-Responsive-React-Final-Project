@@ -1,26 +1,51 @@
-.Footer {
-  background-image: url("//c4.wallpaperflare.com/wallpaper/448/38/538/book-book-stack-bookcase-books-wallpaper-preview.jpg");
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: #21961f;
-  font-weight: bold;
-  text-align: center;
+.footer {
   padding: 20px;
-  border: 14px solid rgba(255, 255, 255, 0.75);
+  background-color: #055103;
+  border: 14px;
   border-radius: 20px;
 }
 
-.Footer p {
+.footer p {
   font-size: 14px;
   margin: 0;
-  background-color: rgba(255, 255, 255, 0.7);
-  width: 340px;
-  height: 20px;
-  padding: 2px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
 }
 
-.Footer p a {
-  color: #21961f;
-  text-decoration: underline;
+.social-icon {
+  display: block;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 5px;
 }
+
+.social-icon a {
+  display: inline-block;
+  padding: 5px;
+}
+
+.social-icon img {
+  width: 24px;
+  height: 24px;
+}
+
+@media (min-width: 768px) {
+  .footer {
+    padding: 20px;
+  }
+
+  .footer p {
+    font-size: 16px;
+  }
+
+  .social-icon {
+    justify-content: flex-end;
+  }
+
+  .social-icon img {
+    width: 28px;
+    height: 28px;
+  }
+}
+
