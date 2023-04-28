@@ -1,0 +1,30 @@
+1. Wireframes
+   - [x] Complete mobile wireframes
+   - [x] Complete desktop wireframes
+
+2. UX Testing
+   - [x] Complete UX testing and write down changes to be made
+
+3. Design/Layout Changes to Components
+   - [x] About
+   - [x] Footer
+   - [ ] BookDetails
+   - [ ] BookFeature
+   - [ ] BookFeatureList
+   - [ ] BookList
+   - [ ] BookSpace
+   - [ ] RandomBook
+   - [ ] Title
+
+4. Responsiveness
+   - [ ] Implement media queries
+   - [ ] Utilize responsive features like flexbox, sticky footer, etc.
+   - [ ] Use Flex for mobile (one column) and Grid for desktop
+
+5. Accessibility
+   - [ ] Update the semnatic markup on the site. Replace existing generic markup with semantic markup where appropriate.
+   - [ ] Alt text for images
+   - [ ] Add ARIA attributes to elements 
+   - [ ] Check the color contrast. Use https://webaim.org/resources/contrastchecker/ to make sure site passes the check!
+   - [ ] ARun Lighthouse/WAVE test and ensure you pass!
+
