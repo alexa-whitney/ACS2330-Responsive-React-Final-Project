@@ -5,28 +5,26 @@ import RandomBook from '../RandomBook/RandomBook'
 
 function Title() {
   return (
-    <div className="Title">
+    <section className="Title">
       <header>
         <h1>
           <div class="logo">
             <b>the be<span>g</span>uil<span>i</span>ng bookshelf</b>
           </div>
         </h1>
-        <div className="Title-Subtitle">Be entertained.</div>
-        <div>
-        <NavLink 
-	        className={({ isActive }) => isActive ? "nav-link-active" : "nav-link" }
-	        to="/">List
-        </NavLink>
-        <NavLink 
-	        className={({ isActive }) => isActive ? "nav-link-active" : "nav-link" }
-	        to="/about">About
+        <nav class="navbar-nav" aria-label="Main">
+          <NavLink
+            className={({ isActive }) => isActive ? "nav-link-active" : "nav-link"}
+            to="/" aria-label="Go to Book List">Book List
           </NavLink>
-        <RandomBook />
-        </div>
-
+          <NavLink
+            className={({ isActive }) => isActive ? "nav-link-active" : "nav-link"}
+            to="/about" aria-label="Go to About Page">About
+          </NavLink>
+          <RandomBook class="random-book" />
+        </nav>
       </header>
-    </div>
+    </section>
   )
 }
 
