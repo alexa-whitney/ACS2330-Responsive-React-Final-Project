@@ -31,7 +31,12 @@ function getFeature(str) {
 
 function BookFeature(props) {
 	const emoji = getFeature(props.name)
-	return <div className="BookFeature">{emoji}</div>
+	return (
+		<div className="BookFeature" title={props.name}>
+		  <span aria-hidden="true">{emoji}</span>
+		  <span className="BookFeature-title">{props.name}</span>
+		</div>
+	  );
 }
 
 export default BookFeature;
