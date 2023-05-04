@@ -9,7 +9,7 @@
    - [x] About
    - [x] Footer
    - [ ] BookDetails
-   - [ ] BookFeature
+   - [x] BookFeature
    - [ ] BookFeatureList
    - [ ] BookList
    - [ ] BookSpace

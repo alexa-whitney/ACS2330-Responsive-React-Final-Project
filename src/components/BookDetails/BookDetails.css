@@ -1,14 +1,14 @@
+/* Mobile First */
 .BookDetails {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
   margin: 50px 0;
 }
 
 .BookDetails-image {
-  width: 30%;
-  margin-right: 30px;
+  width: 90%;
+  margin-bottom: 20px;
   border-radius: 20px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
   overflow: hidden;
@@ -19,7 +19,7 @@
 }
 
 .BookDetails-info {
-  width: 70%;
+  width: 80%;
   padding: 20px;
   background-color: #f9f9f9;
   border-radius: 20px;
@@ -27,34 +27,130 @@
 }
 
 .BookDetails-title {
-  font-size: 40px;
-  margin-bottom: 20px;
+  font-size: 24px;
+  margin-bottom: 10px;
   color: rgb(4, 103, 37);
   font-family: luminari;
 }
 
-.BookDetails-desc {
-  font-size: 16px;
-  margin-bottom: 20px;
-  font-family: monaco;
-}
-
-.BookDetails-genre {
+.BookDetails-author {
   font-size: 18px;
-  font-weight: 800;
-  color: #333;
-  margin-bottom: 20px;
-}
-
-.BookDetails-published {
-  font-size: 14px;
-  color: #333;
-  margin-bottom: 20px;
+  margin-bottom: 8px;
+  font-weight: bold;
+  font-family: monaco;
+  color: rgb(1, 40, 14);
 }
 
 .BookDetails-website {
+  padding: 10px 10px;
   font-size: 14px;
-  color: #333;
-  margin-bottom: 20px;
-  text-decoration: underline;
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  border: 3px solid #055103;
+  transition: all 0.2s ease-in-out;
+  background-color: #fff;
+  color: #055103;
+  text-decoration: none;
 }
+
+.BookFeature {
+  font-size: 24px;
+}
+
+.BookDetails-genre,
+.BookDetails-published {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-family: monaco;
+  line-height: 1.5rem;
+}
+
+.BookDetails-desc {
+  font-size: 14px;
+  margin-bottom: 10px;
+  font-family: monaco;
+  text-align: left;
+  line-height: 1.5rem;
+}
+
+/* Tablet */
+@media (min-width: 481px) {
+  .BookDetails {
+    flex-direction: row;
+    margin-right: 20px;
+  }
+
+  .BookDetails-image {
+    width: 40%;
+    margin-left: 20px;
+  }
+
+  .BookDetails-info {
+    width: 60%;
+  }
+
+  .BookDetails-title {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+
+  .BookDetails-author {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+
+  .BookFeature {
+    font-size: 32px;
+  }
+
+  .BookDetails-genre,
+  .BookDetails-published,
+  .BookDetails-desc {
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 1.5em;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+  .BookDetails-image {
+    width: 50%;
+    margin-right: 30px;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 0;
+    flex-direction: column;
+    align-self: flex-start;
+  }
+
+  .BookDetails-info {
+    width: 70%;
+    padding: 40px;
+    height: 60%;
+  }
+
+  .BookDetails-title {
+    font-size: 48px;
+    margin-bottom: 30px;
+  }
+
+  .BookDetails-author {
+    font-size: 32px;
+    margin-bottom: 30px;
+  }
+
+  .BookFeature {
+    font-size: 48px;
+  }
+
+  .BookDetails-genre,
+  .BookDetails-published,
+  .BookDetails-desc {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+}
+
