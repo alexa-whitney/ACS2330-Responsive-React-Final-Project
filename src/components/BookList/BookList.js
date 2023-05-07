@@ -20,9 +20,9 @@ function BookList() {
 					key={`${title}-${id}`}
 					title={title}
 					author={author}
-                    desc={desc}
-                    genre={genre}
-                    published={published}
+					desc={desc}
+					genre={genre}
+					published={published}
 					image={images[0]}
 					website={website}
 				/>
@@ -30,17 +30,27 @@ function BookList() {
 		)
 	})
 
+	const numResults = spaces.length
+
 	return (
-		<div className="BookList">
+		<section className="BookList" aria-label="Book list">
 			<form>
+				<label htmlFor="searchInput">Search by Title, Author, or Genre</label>
 				<input
+					id="searchInput"
 					value={query}
-					placeholder="    Search by Title, Author, or Genre"
+					placeholder="Enter your search query here"
 					onChange={(e) => setQuery(e.target.value)}
 				/>
 			</form>
-			{spaces.length > 0 ? spaces : "No results match your search"}
-		</div>
+			{numResults > 0 ? (
+        <p>{numResults} {numResults === 1 ? "result" : "results"} match your search</p>
+      ) : (
+        <p>No results match your search</p>
+      )}
+      {spaces}
+		</section>
+
 	)
 }
 

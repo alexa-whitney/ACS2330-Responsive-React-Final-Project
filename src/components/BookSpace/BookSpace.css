@@ -29,7 +29,7 @@
   position: relative;
   right: 0;
   bottom: 0;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .BookSpace .BookSpace-info div {
@@ -48,8 +48,5 @@
 }
 
 .genre {
-  font-style: italic;
-  color: #025e10;
-  border-radius: 20px;
-  font-size: 12px;
+  display: none;
 }

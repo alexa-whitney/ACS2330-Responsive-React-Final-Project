@@ -1,7 +1,7 @@
 
 # The Beguiling Bookshelf - Book Recommendation React Website
 
-This is a book recommendation website built with React. The site allows users to search for books by title or author, view book information and recommendations, and had a "random book" feature which will populate the book details for a random book in the library.
+This is a book recommendation website built with React and specifically altered to be responsive (with a mobile first approach), and accessible. The site allows users to search for books by title or author, view book information and recommendations, and had a "random book" feature which will populate the book details for a random book in the library.
 
 The project was built with React, utilizing components and state management to provide a seamless and dynamic user interface for a more intuitive experience.
 
@@ -16,6 +16,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - Search for books currently in the library by title, author, or genre.
 - View book details, including summary, author, and cover image.
 - Fun and visually appealing CSS design.
+- ARIA attributes and semantic HTML incorporated for increased accessibility.
 
 
 
@@ -61,4 +62,7 @@ For any questions, please contact Alexa Whitney at [alexa.whitney@students.domin
 
 
 ### The images used in this project were sourced from Google.
+
+## Wireframe
+Please visit https://www.figma.com/file/QQFieNPM97JP12hDNQhrF8/The-Beguiling-Bookshelf-Wireframe---Final-Project?type=design&node-id=0-1&t=u60IkszrNSgpPolB-0
 
