@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/ACS2330-Responsive-React-Final-Project/static/css/main.adb96815.css",
+    "main.js": "/ACS2330-Responsive-React-Final-Project/static/js/main.7542cc41.js",
+    "static/js/787.e7ef2754.chunk.js": "/ACS2330-Responsive-React-Final-Project/static/js/787.e7ef2754.chunk.js",
+    "static/media/github.svg": "/ACS2330-Responsive-React-Final-Project/static/media/github.19868690d76745469442c3cdd95512a0.svg",
+    "index.html": "/ACS2330-Responsive-React-Final-Project/index.html",
+    "static/media/linkedin.svg": "/ACS2330-Responsive-React-Final-Project/static/media/linkedin.c7d6b6e3f09ac9a8e9ab96d60e94dc55.svg",
+    "main.adb96815.css.map": "/ACS2330-Responsive-React-Final-Project/static/css/main.adb96815.css.map",
+    "main.7542cc41.js.map": "/ACS2330-Responsive-React-Final-Project/static/js/main.7542cc41.js.map",
+    "787.e7ef2754.chunk.js.map": "/ACS2330-Responsive-React-Final-Project/static/js/787.e7ef2754.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.adb96815.css",
+    "static/js/main.7542cc41.js"
+  ]
+}
