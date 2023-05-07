@@ -10,7 +10,7 @@ function RandomBook() {
     onClick={(e) => {
 			const id = Math.floor(Math.random() * data.length)
 			navigate(`/details/${id}`)
-		}}>Show me a random book!</button>
+		}}>Random Book</button>
   )
 }
 
